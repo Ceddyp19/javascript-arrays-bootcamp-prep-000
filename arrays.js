@@ -87,7 +87,7 @@ function addElementToEndOfArray(array, element){
  
  pizzaJoints = [...pizzaJoints,"Papa Johns"];
   
-function destructivelyAddElementToEndOfArray(array, elements){
+function destructivelyAddElementToEndOfArray(array, element){
  array.push(element);
  return array;
 }
