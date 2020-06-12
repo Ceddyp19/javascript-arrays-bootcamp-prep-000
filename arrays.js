@@ -89,6 +89,7 @@ function addElementToEndOfArray(array, element){
   
 function destructivelyAddElementToEndOfArray(array, elements){
  array.push(element);
+ return array;
 }
 
 
