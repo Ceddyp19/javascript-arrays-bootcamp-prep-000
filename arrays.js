@@ -120,9 +120,9 @@ function removeElementFromBeginningOfArray(){
 
 
 
- function destructivelyRemoveElementFromEndOfArray(){
+ function destructivelyRemoveElementFromEndOfArray(array){
    
-  array = [ 1, 2, 3 ];
+  //array = [ 1, 2, 3 ];
   array.pop();
 
  return array;
