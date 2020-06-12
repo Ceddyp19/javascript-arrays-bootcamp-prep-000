@@ -103,8 +103,8 @@ function accessElementInArray(){
   
 
 
-function destructivelyRemoveElementFromBeginningOfArray(){
-  const array = [ 1, 2, 3];
+function destructivelyRemoveElementFromBeginningOfArray(array){
+
   array.shift();
   
   return array;
