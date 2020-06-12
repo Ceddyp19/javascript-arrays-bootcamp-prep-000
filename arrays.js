@@ -123,7 +123,7 @@ function removeElementFromBeginningOfArray(){
  function destructivelyRemoveElementFromEndOfArray(){
    
   array = [ 1, 2, 3 ];
-  array.pop();
+  var poppedArray = array.pop();
 
  return array;
   }
